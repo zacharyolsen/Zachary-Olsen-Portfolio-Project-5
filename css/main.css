@@ -11,11 +11,12 @@ img {
   margin: auto;
 }
 .footer {
+  margin-top: 30px;
   text-align: center;
   font-family: 'Rock Salt', cursive;
   color: white;
 }
 iframe {
-  margin: auto;
+  margin: 0 auto;
   padding: 30px;
 }
