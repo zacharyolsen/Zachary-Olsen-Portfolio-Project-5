@@ -5,11 +5,6 @@ h1 {
   margin: auto;
   display: block;
 }
-img {
-  max-width: 500px;
-  max-height: auto;
-  margin: auto;
-}
 .footer {
   margin-top: 30px;
   text-align: center;
@@ -19,4 +14,30 @@ img {
 iframe {
   margin: 0 auto;
   padding: 30px;
+}
+.grid-sizer,
+.grid-item {
+  width: 100%;
+}
+.grid-sizer img,
+.grid-item img {
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 720px) {
+  .grid-sizer,
+  .grid-item {
+    width: 33.333333%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .grid-sizer,
+  .grid-item {
+    width: 25%;
+  }
 }
