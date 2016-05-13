@@ -1,9 +1,17 @@
 body {
   background-color: black;
 }
-h1 {
-  margin: auto;
+.logo img {
+  margin: 0 auto;
   display: block;
+  max-width: 600px;
+}
+.buttons img {
+  margin: 0 auto;
+  display: inline-grid;
+  max-width: 300px;
+  margin-left: 50px;
+  margin-top: 25px;
 }
 .footer {
   margin-top: 30px;
